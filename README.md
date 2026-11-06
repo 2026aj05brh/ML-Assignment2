@@ -20,4 +20,21 @@ Target classes:
 The features are numerical measurements computed from digitized images of breast-mass fine-needle aspirates. They describe characteristics such as radius, texture, perimeter, area, smoothness and compactness.
 
 ## 3. Github repository link:
-https://github.com/2026aj05brh/ML-Assignment2
+https://github.com/2026aj05brh/ML-Assignment2\
+
+## 4. Live streaming application link:
+
+## 5. Model used:
+1. Logistic regression
+2. Decision tree classifier
+3. K-Neighbour classifier
+4. Gaussian Naive Bayes
+5. Support vector machine
+
+## Model comparison:
+**ML model name          Accuracy   AUC Precision Recall F1 MCC**
+Logistic regression         0.98    0.
+Decision tree               0.99    0. 
+KNN                         0.88    0.  
+Naive Bayes                 0.45    0.
+Support vector machine      0.12    0.

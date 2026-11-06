@@ -32,7 +32,7 @@ https://github.com/2026aj05brh/ML-Assignment2\
 5. Support vector machine
 
 ## Model comparison:
-**ML model name          Accuracy   AUC Precision Recall F1 MCC**
+**ML model name          Accuracy   AUC Precision Recall F1 MCC**   
 Logistic regression         0.98    0.
 Decision tree               0.99    0. 
 KNN                         0.88    0.  

@@ -31,10 +31,53 @@ https://github.com/2026aj05brh/ML-Assignment2\
 4. Gaussian Naive Bayes
 5. Support vector machine
 
-## Model comparison:
-**ML model name          Accuracy   AUC Precision Recall F1 MCC**   
-Logistic regression         0.98    0.
-Decision tree               0.99    0. 
-KNN                         0.88    0.  
-Naive Bayes                 0.45    0.
-Support vector machine      0.12    0.
+## 6. Model metric comparison:
+|ML model name | Accuracy | AUC | Precision | Recall | F1 | MCC|   
+|-----------------|-------|-----|---------|--------|-----|-----|
+| Logistic regression | 0.98  |  0. | 0 | 0| 
+| Decision tree              |  0.99 | 0. | 
+| KNN                        |  0.88    0. |  
+| Naive Bayes                |  0.45    0.| 
+| Support vector machine      | 0.12    0.| 
+
+The above values were calculated on the same holdout test set data using random_state=42
+
+## 7. Model observations
+| Model name | Observations|
+|------------|-------------|
+| Logistic regression ||
+| Decision tree              |  |
+| KNN                        | |
+| Naive Bayes                |  |
+| Support vector machine |  |
+
+## Overall winner model
+The winner model is 
+It was selected as a overall winner model because it obtained ---.MCC was used as the primary comparison evaluation metric because it considers
+all four entries of the confusion matrix.
+
+## Streamlit Application Features:
+- CSV test-data uploaded
+- Dropdowm menu for selecting a trained model out of all five model
+- Accuracy, AUC, Recall, Precision, F1 Score and MCC for the selected model
+- Confusion matrix
+- Classification report
+- Prediction-result download
+- Evaluation without model training
+
+## repository Structure:
+'
+├── app.py
+├── train_models.py
+├── requirements.txt
+├── README.md
+├── test_data.csv
+├── results.csv
+└──model/
+   ├── decision_tree.joblib
+   ├── feature_names.joblib
+   ├── knn.joblib
+   ├── logistic_regression.joblib
+   ├── naive_bayes.joblib
+   ├── support_vector_machine.joblib
+

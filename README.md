@@ -26,6 +26,7 @@ The features are numerical measurements computed from digitized images of breast
 https://github.com/2026aj05brh/ML-Assignment2\
 
 ## 4. Live streaming application link:
+https://ml-assignment2-brh136.streamlit.app/
 
 ## 5. Model used:
 1. Logistic regression

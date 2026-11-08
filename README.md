@@ -23,7 +23,7 @@ Target classes:
 The features are numerical measurements computed from digitized images of breast-mass fine-needle aspirates. They describe characteristics such as radius, texture, perimeter, area, smoothness and compactness.
 
 ## 3. Github repository link:
-https://github.com/2026aj05brh/ML-Assignment2\
+https://github.com/2026aj05brh/ML-Assignment2
 
 ## 4. Live streaming application link:
 https://ml-assignment2-brh136.streamlit.app/

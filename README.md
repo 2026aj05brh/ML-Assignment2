@@ -56,7 +56,7 @@ The above values were calculated on the same holdout test set data using random_
 | Overall, Winner for my dataset|Logistic Regression. Because among the five evaluated classifiers, Logistic Regression and Support Vector Machine produced the strongest results. Both achieved 98.25% Accuracy, 98.61% Precision, 98.61% Recall, a 98.61% F1-score, and an MCC of 96.23%. Logistic Regression was selected as the final best model because it achieved the highest AUC of 99.54%, compared with 99.50% for SVM. Logistic Regression is also simpler and more interpretable than the RBF Support Vector Machine. KNN ranked third with an MCC of 90.54%, while Naive Bayes showed strong ranking ability with an AUC of 98.78% but lower threshold-based performance. Decision Tree produced the weakest overall results, with the lowest Accuracy, AUC, F1-score, and MCC.|
 
 ## 8. Overall winner model
-The winner model is Logistic Regression
+The winner model is Logistic Regression.   
 It was selected as a overall winner model because among the all five evaluated classifiers, Logistic Regression and Support Vector Machine produced the strongest results. Both achieved 98.25% Accuracy, 98.61% Precision, 98.61% Recall, a 98.61% F1-score, and an MCC of 96.23%. Logistic Regression was selected as the final best model because it achieved the highest AUC of 99.54%, compared with 99.50% for SVM.
 
 ## 9. Streamlit Application Features:

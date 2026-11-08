@@ -49,17 +49,17 @@ The above values were calculated on the same holdout test set data using random_
 | Model name | Observations|
 |------------|-------------|
 | Logistic regression ||
-| Decision tree              |  |
+| Decision tree | |
 | KNN                        | |
 | Naive Bayes                |  |
 | Support vector machine |  |
 
-## Overall winner model
+## 8. Overall winner model
 The winner model is 
 It was selected as a overall winner model because it obtained ---.MCC was used as the primary comparison evaluation metric because it considers
 all four entries of the confusion matrix.
 
-## Streamlit Application Features:
+## 9. Streamlit Application Features:
 - CSV test-data uploaded
 - Dropdowm menu for selecting a trained model out of all five model
 - Accuracy, AUC, Recall, Precision, F1 Score and MCC for the selected model
@@ -68,8 +68,9 @@ all four entries of the confusion matrix.
 - Prediction-result download
 - Evaluation without model training
 
-## repository Structure:
-'
+## 10. GitHub Repository Structure:
+````text
+.
 ├── app.py
 ├── train_models.py
 ├── requirements.txt
@@ -83,4 +84,6 @@ all four entries of the confusion matrix.
    ├── logistic_regression.joblib
    ├── naive_bayes.joblib
    ├── support_vector_machine.joblib
+
+
 
